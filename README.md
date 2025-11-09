@@ -1,2 +1,2 @@
-# CursoJava10x
-Repositorio para curso Java 10x
+# Curso Java10x
+Primeiro repositório para o curso Java 10x
