@@ -1,4 +1,4 @@
-package desafios;
+package DesafiosUmATres;
 
 public class Ninja
 {
@@ -21,6 +21,9 @@ public class Ninja
         this.nivelDificuldade = nivelDificuldade;
         this.statusMissao = statusMissao;
     }
+
+    public Ninja(){}
+
 
     // METODO (AÇÃO)
     public void ataqueBase()

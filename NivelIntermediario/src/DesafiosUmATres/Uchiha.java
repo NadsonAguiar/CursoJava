@@ -1,4 +1,4 @@
-package desafios;
+package DesafiosUmATres;
 
 public class Uchiha extends Ninja  //USANDO HERANÇA
 {
