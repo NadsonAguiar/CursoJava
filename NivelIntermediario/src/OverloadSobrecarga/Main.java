@@ -1,4 +1,4 @@
-package OverloadSobrecargaDeConstrutores;
+package OverloadSobrecarga;
 
 public class Main {
     static void main(String[] args) {
@@ -16,6 +16,12 @@ public class Main {
     //obj uzumaki
     Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da Folha", 16, 10,NivelNinja.JOUNIN);
     naruto.habilidadeEspecial();
+
+    //Metodo sem sobrecarga
+    sasuke.inteligenciaDeCombate();
+    //Metodo com sobrecarga
+    sasuke.inteligenciaDeCombate(180);
+
 
     }
 }
