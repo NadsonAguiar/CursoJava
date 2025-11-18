@@ -14,7 +14,7 @@ public class Main {
         sasuke.exibirNivel();
         sakura.exibirNivel();
         boruto.exibirNivel();
-        
+
 
     }
 }
