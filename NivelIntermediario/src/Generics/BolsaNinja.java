@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Usando o generic não precisamos passar o tipo, apenas usamos "T"
-// Sem o Generic teriamos que criar array para cada classe para conter os seus objetos
+// Sem o Generic teríamos que criar array para cada classe para conter os seus objetos
 public class BolsaNinja<T> {
 
     //Construtor
