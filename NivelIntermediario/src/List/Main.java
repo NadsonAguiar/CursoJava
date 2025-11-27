@@ -34,12 +34,12 @@ public class Main {
         System.out.println("NinjaList = " + ninjasList);
         System.out.println("============================");
 
-        // Trocar elementos
+        // Usando "set"  podemos trocar elementos
         ninjasList.set(3,"Hashirama Senju");
         System.out.println("NinjaList = " + ninjasList + " elementos");
         System.out.println("=============================");
 
-        // Ver o tamanho da lista
+        // Usando "size" podemos ver o tamanho da lista
         System.out.println(" Tamanho da lista = " + ninjasList.size());
         System.out.println("==============================");
 

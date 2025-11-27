@@ -11,6 +11,15 @@ public class Ninja {
             this.idade = idade;
             this.vila = vila;
         }
-    
 
+    @Override
+    public String
+    toString() {
+        return "Ninja{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", vila='" + vila + '\'' +
+                ", proximo=" + proximo +
+                '}';
+    }
 }
