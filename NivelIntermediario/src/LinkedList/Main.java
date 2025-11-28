@@ -15,9 +15,21 @@ public class Main {
         // PILHA (LIFO) - pop() remove do TOPO (que também é o início)
         // PILHA (LIFO) - peek() olha o topo e retorna
 
+
+        //USO PARA DEQUE
         // FILA (FIFO) - add() adicionar na fila
-        // FILA (FIFO) - poll() remove primeiro elemento da fila
-        // FILA (FIFO) - peek() olha o fim da fila e retorna
+        // FILA (FIFO) - offer() adiciona na fila - USO RECOMENDADO(NÃO LANÇA EXCEÇÃO)
+        // FILA (FIFO) - offerFirst() adiciona na INICIO da fila
+        // FILA (FIFO) - offerLast() adiciona na FIM da fila
+        // FILA (FIFO) - poll() remove primeiro elemento da fila - USO RECOMENDADO(NÃO LANÇA EXCEÇÃO)
+        // FILA (FIFO) - pollFirst() remove primeiro elemento da fila
+        // FILA (FIFO) - pollLast() remove ultimo elemento da fila
+        // FILA (FIFO) - remove() remove primeiro elemento da fila
+        // FILA (FIFO) - peek() olha o fim da fila e retorna - USO RECOMENDADO(NÃO LANÇA EXCEÇÃO)
+        // FILA (FIFO) - peekFirst() olha o inicio da fila e retorna
+        // FILA (FIFO) - peekLast() olha o fim da fila e retorna
+        // FILA (FIFO) - element() olha o fim da fila e retorna
+
 
 
         // Primeiro exemplo de LinkeList

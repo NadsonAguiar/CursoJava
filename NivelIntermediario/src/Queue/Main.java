@@ -6,7 +6,7 @@ public class Main {
     static void main(String[] args) {
 
         // Array
-        // São estaticos e tem referência de memória
+        // São estáticos e tem referência de memória
         String[] ninjasArray = new String[3];
 
         // List
@@ -19,9 +19,23 @@ public class Main {
 
         // Queue // Filas
         /* A Queue em Java é uma estrutura de dados que segue o princípio FIFO (First In, First Out),
-         onde o primeiro elemento inserido é o primeiro a ser removido */
-        /* Em Queue existe HEAD(primeiro) e TAIL(ultimo), quando o primeiro sai, modifica o HEAD, mas o TAIL permanece,
-        até ser adicionado outro elemento no final */
+        onde o primeiro elemento inserido é o primeiro a ser removido
+        Em Queue existe HEAD(primeiro) e TAIL(ultimo), quando o primeiro sai, modifica o HEAD, mas o TAIL permanece,
+        até ser adicionado outro elemento no final*/
+        //TODO: QUEUE é uma interface, dela implementam "LinkedList" e "PriorityQueue"
+
+        // FILA (FIFO) - add() adicionar na fila
+        // FILA (FIFO) - offer() adiciona na fila - USO RECOMENDADO(NÃO LANÇA EXCEÇÃO)
+        // FILA (FIFO) - offerFirst() adiciona na INICIO da fila
+        // FILA (FIFO) - offerLast() adiciona na FIM da fila
+        // FILA (FIFO) - poll() remove primeiro elemento da fila - USO RECOMENDADO(NÃO LANÇA EXCEÇÃO)
+        // FILA (FIFO) - pollFirst() remove primeiro elemento da fila
+        // FILA (FIFO) - pollLast() remove ultimo elemento da fila
+        // FILA (FIFO) - remove() remove primeiro elemento da fila
+        // FILA (FIFO) - peek() olha o fim da fila e retorna - USO RECOMENDADO(NÃO LANÇA EXCEÇÃO)
+        // FILA (FIFO) - peekFirst() olha o inicio da fila e retorna
+        // FILA (FIFO) - peekLast() olha o fim da fila e retorna
+        // FILA (FIFO) - element() olha o fim da fila e retorna
         Queue<String> ninjaQueue= new LinkedList<>();
         ninjaQueue.add("Naruto");
         ninjaQueue.add("Sasuke");

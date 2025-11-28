@@ -17,7 +17,9 @@ public class Main {
 
         System.out.println("=============================");
 
-        // Listas não são estáticas, podem aumentar e diminuir
+        // Listas não são estáticas, podem aumentar e diminuir, além de que podemos acessar por índice(posição)
+        //TODO: LIST é uma interface, dela implementam "ArrayList" e "LinkedList"
+
         List<String> ninjasList = new ArrayList<>();
 
         // Usando "add" podemos adicionar na lista
