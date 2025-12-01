@@ -17,11 +17,15 @@ public class Main {
         // O ultimo elemento que entrou é obrigatoriamente o  primeiro a sair, estrutura LIFO (Last In, First Out)
         Stack<String> ninjasStack = new Stack<>();
 
+
+
         // Queue // Filas
-        /* A Queue em Java é uma estrutura de dados que segue o princípio FIFO (First In, First Out),
+        /*
+        A Queue em Java é uma estrutura de dados que segue o princípio FIFO (First In, First Out),
         onde o primeiro elemento inserido é o primeiro a ser removido
         Em Queue existe HEAD(primeiro) e TAIL(ultimo), quando o primeiro sai, modifica o HEAD, mas o TAIL permanece,
-        até ser adicionado outro elemento no final*/
+        até ser adicionado outro elemento no final
+        */
         //TODO: QUEUE é uma interface, dela implementam "LinkedList" e "PriorityQueue"
 
         // FILA (FIFO) - add() adicionar na fila
@@ -36,6 +40,7 @@ public class Main {
         // FILA (FIFO) - peekFirst() olha o inicio da fila e retorna
         // FILA (FIFO) - peekLast() olha o fim da fila e retorna
         // FILA (FIFO) - element() olha o fim da fila e retorna
+
         Queue<String> ninjaQueue= new LinkedList<>();
         ninjaQueue.add("Naruto");
         ninjaQueue.add("Sasuke");
